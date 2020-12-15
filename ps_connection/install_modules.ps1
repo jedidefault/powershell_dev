@@ -1,0 +1,1 @@
+Set-ExecutionPolicy RemoteSigned -Force; Install-Module MSOnline -Force; Install-Module -Name AzureAD -Force; Install-Module -Name ExchangeOnlineManagement -Force; Import-Module MSOnline; Import-Module -Name AzureAD; Import-Module ExchangeOnlineManagement; Connect-ExchangeOnline
